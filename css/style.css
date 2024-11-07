@@ -1,1 +1,282 @@
 @charset "utf-8";
+.wrapper {
+    width: 100%;
+}
+
+.wrapper pc-inner {
+    width: 1100px;
+}
+
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header pc-inner {
+    max-width: 1100px;
+}
+
+.pc {
+    background: #fff;
+    height: 100px;
+    position: sticky;
+}
+
+.header-logo {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.header-logo inner {
+    width: 1100px;
+}
+
+.stack {
+    color: #777;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    line-height: 2em;
+}
+
+.size {
+    font-size: 3em;
+}
+
+.icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+
+.flex-contact {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #6ba7eb;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+}
+.contact-box {
+    text-align: center;
+}
+
+.contact-box inner {
+    width: 1100px;
+}
+
+.size {
+    font-size: 2em;
+}
+
+.fa-solid fa-archway {
+    font-size: 70px;
+}
+
+.keyvisual {
+    background-image: url(../images/keyvisual/keyvisual.jpg);
+    padding: 400px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #6ba7eb;
+    text-align: center;
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.news main{
+    background-color: #e3f2fd;
+}
+
+.news {
+    display: flex;
+    background: #e3f2fd;
+}
+
+.news inner{
+    background-color:#e3f2fd;
+}
+
+.right{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.news h2{
+    color: black;
+    padding-left: 320px;
+    
+}
+
+.news img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 35px;
+    letter-spacing: normal;
+}
+
+.skills {
+    position: fixed;
+    position: sticky;
+}
+
+.skills h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    row-gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.icons img:not(:nth-child(3n + 3)) {
+    margin-right: 2%;
+}
+
+.icons img:nth-child(n + 4) {
+    margin-top: 100px;
+}
+
+.icons img:nth-child(n + 4) {
+    margin-top: 100px;
+}
+
+.icons img {
+    height: 300px;
+}
+
+.plan {
+    background-color: #d0dfea;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-left: 180px;
+    margin: 50px auto;
+    table-layout: fixed;
+}
+
+thead th {
+    background-color: #6ba7eb;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 26px;
+}
+
+th,
+td {
+    border-left: 2px solid #fff;
+    text-align: center;
+}
+
+th:first-child {
+    border-left: 0;
+}
+
+tbody td {
+    padding: 26px;
+    font-weight: 400;
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(2n + 0) {
+    background-color: #e0efff;
+}
+
+tfoot tr {
+    background-color: #f9f9f9;
+}
+
+tfoot td {
+    padding: 26px;
+}
+
+.sns-main{
+    background-color: #e3f2fd;
+}
+
+
+.sns {
+    background-color: #e3f2fd;
+    margin: 0 auto;
+}
+
+.icon {
+    display: flex;
+    color: #8c8c8c;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.sns i {
+    padding: 200px 0 200px 0;
+    font-size: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 100px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #cfd8dc;
+}
+
+.texst {
+    padding: 25px;
+    font-size: 13px;
+    color: #777;
+    text-align: right;
+}
