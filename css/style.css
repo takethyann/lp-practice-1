@@ -97,7 +97,7 @@ h2 {
     text-align: center;
 }
 
-.news main{
+.news main {
     background-color: #e3f2fd;
 }
 
@@ -106,26 +106,24 @@ h2 {
     background: #e3f2fd;
 }
 
-.news inner{
-    background-color:#e3f2fd;
+.news inner {
+    background-color: #e3f2fd;
 }
 
-.right{
+.right {
     text-align: center;
     padding-left: 50px;
 }
 
-.news h2{
+.news h2 {
     color: black;
     padding-left: 320px;
-    
 }
 
 .news img {
     width: 250px;
     margin-top: 50px;
 }
-
 
 h2 {
     margin: 0;
@@ -243,10 +241,9 @@ tfoot td {
     padding: 26px;
 }
 
-.sns-main{
+.sns-main {
     background-color: #e3f2fd;
 }
-
 
 .sns {
     background-color: #e3f2fd;
