@@ -1,0 +1,45 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+#wrapper{
+    width: 1800px;
+}
+/* tablet */
+  @media screen and(max-width:1199px) {
+    #wrapper{
+        width: 90%;
+    }
+    .item{
+      width: 50%
+    }
+    .inner{
+        width: 1199px;
+        margin: 0 auto;
+    }
+
+    .inner h1{
+        padding: 250px 0;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+  @media (max-width:767px) {
+    width: ;
+  }
