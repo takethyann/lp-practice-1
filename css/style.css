@@ -107,7 +107,7 @@ h2 {
     background: #e3f2fd;
 }
 
-.news inner {
+.news .inner {
     background-color: #e3f2fd;
 }
 
@@ -342,32 +342,38 @@ tfoot td {
     .icons {
         flex-direction: row;
         display: block;
-        gap: 20px;
+        padding-bottom: 0;
+        
     }
 
-    .icons li:nth-child(3) {
+    .icons li:nth-child(3n) {
         margin-bottom: 100px;
     }
 }
 
 /* mobile */
 @media (max-width: 767px) {
+
     .wrapper {
         width: 100%;
+        box-sizing: border-box;
+         
     }
 
     .inner {
-        width: 650px;
+        max-width: 600px;
         margin: 0 auto;
         text-align: center;
+        background-attachment: fixed;
     }
 
-    .header inner {
-        width: 650px;
+
+    .header .inner {
+        width: 100%;
     }
 
     .keyvisual {
-        width: 100%;
+        background-attachment: fixed;
     }
 
     .hamburger-sm {
@@ -402,12 +408,14 @@ tfoot td {
         transform: translateY(-100%);
     }
 
+
     .flex-contact {
         display: none;
     }
 
     .inner h1 {
         font-size: 40px;
+        white-space: nowrap;
     }
 
     .inner h2 {
@@ -415,7 +423,8 @@ tfoot td {
     }
 
     .news img {
-        width: 200px;
+        max-width: 100%;
+        height: auto;
         padding-right: 0;
     }
 
@@ -426,29 +435,51 @@ tfoot td {
         text-align: center;
     }
 
-    thead th:nth-child(3) {
-        text-align: center;
-    }
 
     tbody td {
         font-size: 12px;
     }
 
     .table {
-        table-layout: fixed;
+        width: 100%;;
     }
 
     tbody th {
         font-size: 14px;
+        text-align: center;
+    }
+
+    thead th:nth-child(3){
+        padding: 26px 10px ;
+    }
+
+    thead th:nth-child(4){
+        padding: 26px 10px ;
+    }
+
+    tbody td:nth-child(4){
+        padding: 26px 10px;
     }
 
     .title {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 50px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 20px 0
+    }
+
+    .sns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
     }
 
     .icon {
         display: block;
+        list-style: none;
+
     }
 }
+
+
