@@ -178,6 +178,7 @@ h2 {
     opacity: 1;
 }
 
+
 .plan {
     background-color: #d0dfea;
 }
@@ -258,7 +259,6 @@ tfoot td {
 .sns i {
     font-size: 40px;
     text-align: center;
-    overflow: hidden;
     margin: 100px;
     row-gap: 185px;
     list-style-type: none;
@@ -342,8 +342,12 @@ tfoot td {
         line-height: 0;
     }
 
+    .icons:last-child{
+        margin-bottom: 80px;
+    }
+
     .icons li:nth-child(3n) {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     img {
@@ -365,6 +369,9 @@ tfoot td {
     
     .plan{
         width: 100%;
+    }
+    .i:last-child{
+        margin-bottom: 0;
     }
 
 }
@@ -477,16 +484,23 @@ tfoot td {
 
 
     .sns {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px 0;
+        padding: 50px 15px;
+    }
+
+    .sns i{
+        margin: 50px;
     }
 
     .icon {
         display: block;
         list-style: none;
     }
+
+
 
    
 }
